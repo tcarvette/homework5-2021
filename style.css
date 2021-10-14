@@ -118,7 +118,7 @@ header{
   /* YOUR CODE HERE; */
   background-repeat: no-repeat;
   background-image: url("../images/header.jpg");
-  grid-column: 1/ span 3;
+  grid-column: 1/span grid-column-end;
   grid-row: 1/ span 1;
 }
 
