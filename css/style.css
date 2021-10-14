@@ -118,7 +118,7 @@ header{
   /* YOUR CODE HERE; */
   background-repeat: no-repeat;
   background-image: url("../images/header.jpg");
-  grid-column: 1/ span 3;
+  grid-column: 1/ -1;
   grid-row: 1/ span 1;
 }
 
@@ -127,7 +127,7 @@ header{
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
-  grid-column: 1/ span 3;
+  grid-column: 1/ -1;
   max-height: 700px;
   overflow: hidden;
 }
